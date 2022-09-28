@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "mulish",sans-serif;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main i{
+    background-color: #fff;
+}
+
+.backgroung-img{
+    width: 100%;
+    background-size: cover;
+}
+
+.hero{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.hero h1{
+    font-family: "Mulish",sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.hero p{
+    font-family: "Mulish",sans-serif;
+    font-style: normal;
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    margin: 30px 0;
+    color: #FFFFFF;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    position: relative;
+    top: -80%;
+    cursor: pointer;
+    padding: 20px 0;
+} 
+
+#menu{
+    box-shadow: 10px 10px 20px 10px #000;
+}
+
+#cart{
+    box-shadow: 10px 10px 20px 10px #000;
+}
+
+#menu:hover {
+    background: #000;
+    color: white;
+}
+
+#cart:hover{
+    background: #000;
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 80px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    font-family: "Mulish",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    border: none;
+    /* identical to box height */
+    cursor: pointer;
+    margin: 0 10px;
+    color: #000000;
+}
+
+
+a{
+    text-decoration: none;
+    color:#000000
+}
+

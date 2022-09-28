@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    font-family: "mulish",sans-serif;
+    width: 100%;
+    background: #fff;
+}
+
+.main{
+    width: 100%;
+    padding:16px 40px;
+    display: flex; gap: 66px;
+    
+}
+
+.bod{
+    width: 246px;
+    height: 5px;
+    background: #F1D5BB;
+}
+
+.sidebar{
+    width: 140px;
+    height: 850px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 7px 10px #000;
+    border-radius: 10px;
+}
+
+.sidebar li{
+    list-style-type: none;
+    padding: 40px;
+}
+
+.sidebar li h1{
+    font-size: 80px;
+    font-family: "Mulish",sans-serif;
+    color:  #F1D5BB;
+    font-weight: 100px;
+}
+
+.spoon{
+    background: #F1D5BB;
+    /* width: 100%; */
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    gap: 66px;
+}
+
+.dish{
+    margin-left: 60px;
+}
+
+.dish h1{
+    font-family: 'mulish', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+}
+
+.dishes{
+    display: flex;
+    margin: 20px ;
+    gap: 80px;
+    /* margin-top: 20px; */
+}
+
+.dishes img{
+    width: 250px;
+    height: 280px;
+    border-radius: 2px;
+}
+
+.dishes a{
+    text-decoration: none;
+}
+
+.dishes p{
+    color: #000;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.click{
+    text-align: center;
+    margin: 20px;
+}
+
+.btn{
+    width: 174px;
+    height: 44px;
+    background: #000000;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 1.5em;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
